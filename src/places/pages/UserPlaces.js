@@ -8,7 +8,7 @@ const DUMMY_PLACES = [
     title: "Binian Gadol",
     description: "A very big building!",
     imgageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/The_BB%26T_Building_in_Macon%2C_Georgia.jpg/800px-The_BB%26T_Building_in_Macon%2C_Georgia.jpg",
+      "https://commons.wikimedia.org/wiki/File:Wikipedia-logo-v2-en.svg#/media/File:Wikipedia-logo-v2-en.svg",
     address: "Jump st. 21 new ashton",
     location: {
       lat: 32.834722,
@@ -22,7 +22,7 @@ const DUMMY_PLACES = [
     title: "Binian Gadol",
     description: "A very big building!",
     imgageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/The_BB%26T_Building_in_Macon%2C_Georgia.jpg/800px-The_BB%26T_Building_in_Macon%2C_Georgia.jpg",
+      "https://commons.wikimedia.org/wiki/File:Wikipedia-logo-v2-en.svg#/media/File:Wikipedia-logo-v2-en.svg",
     address: "Jump st. 21 new ashton",
     location: {
       lat: 32.834722,
