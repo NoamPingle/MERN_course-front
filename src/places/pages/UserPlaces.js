@@ -8,7 +8,7 @@ const DUMMY_PLACES = [
     title: "Binian Gadol",
     description: "A very big building!",
     imgageUrl:
-      "https://commons.wikimedia.org/wiki/File:Wikipedia-logo-v2-en.svg#/media/File:Wikipedia-logo-v2-en.svg",
+      "https://upload.wikimedia.org/wikipedia/commons/b/b3/Wikipedia-logo-v2-en.svg",
     address: "Jump st. 21 new ashton",
     location: {
       lat: 32.834722,
@@ -22,7 +22,7 @@ const DUMMY_PLACES = [
     title: "Binian Gadol",
     description: "A very big building!",
     imgageUrl:
-      "https://commons.wikimedia.org/wiki/File:Wikipedia-logo-v2-en.svg#/media/File:Wikipedia-logo-v2-en.svg",
+      "https://upload.wikimedia.org/wikipedia/commons/b/b3/Wikipedia-logo-v2-en.svg",
     address: "Jump st. 21 new ashton",
     location: {
       lat: 32.834722,
