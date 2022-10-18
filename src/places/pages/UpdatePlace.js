@@ -16,7 +16,7 @@ const DUMMY_PLACES = [
     title: "Binian Gadol",
     description: "A very big building!",
     imgageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/b/b3/Wikipedia-logo-v2-en.svg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Eesti_Tarbekunsti-_ja_Disainimuuseumi_hoone.JPG/800px-Eesti_Tarbekunsti-_ja_Disainimuuseumi_hoone.JPG",
     address: "Jump st. 21 new ashton",
     location: {
       lat: 32.834722,
@@ -30,7 +30,7 @@ const DUMMY_PLACES = [
     title: "Binian Gadol Meod",
     description: "A very big building!",
     imgageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/b/b3/Wikipedia-logo-v2-en.svg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Eesti_Tarbekunsti-_ja_Disainimuuseumi_hoone.JPG/800px-Eesti_Tarbekunsti-_ja_Disainimuuseumi_hoone.JPG",
     address: "Jump st. 21 new ashton",
     location: {
       lat: 32.834722,
