@@ -10,36 +10,6 @@ import {
 import { useForm } from "../../shared/hooks/form-hook";
 import "./PlaceForm.css";
 
-const DUMMY_PLACES = [
-  {
-    id: "p1",
-    title: "Binian Gadol",
-    description: "A very big building!",
-    imgageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Eesti_Tarbekunsti-_ja_Disainimuuseumi_hoone.JPG/800px-Eesti_Tarbekunsti-_ja_Disainimuuseumi_hoone.JPG",
-    address: "Jump st. 21 new ashton",
-    location: {
-      lat: 32.834722,
-      lng: -83.651667,
-    },
-    creator: "u1",
-  },
-
-  {
-    id: "p2",
-    title: "Binian Gadol Meod",
-    description: "A very big building!",
-    imgageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Eesti_Tarbekunsti-_ja_Disainimuuseumi_hoone.JPG/800px-Eesti_Tarbekunsti-_ja_Disainimuuseumi_hoone.JPG",
-    address: "Jump st. 21 new ashton",
-    location: {
-      lat: 32.834722,
-      lng: -83.651667,
-    },
-    creator: "u2",
-  },
-];
-
 const UpdatePlace = () => {
   const [isLoading, setIsLoading] = useState(true);
   const placeId = useParams().placeId;
@@ -58,7 +28,7 @@ const UpdatePlace = () => {
     false
   );
 
-  const identifiedPlace = DUMMY_PLACES.find((p) => p.id === placeId);
+  const identifiedPlace = placeId.find((p) => p.id === placeId);
 
   useEffect(() => {
     if (identifiedPlace) {
